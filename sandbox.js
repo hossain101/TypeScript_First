@@ -1,8 +1,6 @@
 // Code: TypeScript
 var character = 'Shoaib';
-console.log(character);
-var inputs = document.querySelectorAll('input');
-console.log(inputs);
-inputs.forEach(function (input) {
-    console.log(input);
-});
+// learning how to use type annotations
+var circ = function (diameter) {
+    return diameter * Math.PI;
+};

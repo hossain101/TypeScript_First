@@ -3,12 +3,8 @@
 
 const character = 'Shoaib';
 
-console.log(character);
 
-const inputs = document.querySelectorAll('input');
-
-console.log(inputs);
-
-inputs.forEach(input => {
-    console.log(input);
-});
+// learning how to use type annotations
+const circ = (diameter: number) => {
+    return diameter * Math.PI;
+}
