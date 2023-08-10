@@ -1,6 +1,8 @@
-var character = "mario";
+// Code: TypeScript
+var character = 'Shoaib';
 console.log(character);
-var inputs = document.querySelectorAll("input");
+var inputs = document.querySelectorAll('input');
+console.log(inputs);
 inputs.forEach(function (input) {
-  console.log(input);
+    console.log(input);
 });
