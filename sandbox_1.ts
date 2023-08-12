@@ -54,3 +54,4 @@ let logDetails: (obj: {name: string, age: number}) => void;
 };
 
 
+
