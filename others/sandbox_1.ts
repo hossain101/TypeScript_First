@@ -54,4 +54,5 @@ let logDetails: (obj: {name: string, age: number}) => void;
 };
 
 
-
+//example 4
+console.log('example 4');
