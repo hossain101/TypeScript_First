@@ -11,3 +11,14 @@ form.addEventListener('submit', (e) => {
 });
 const inv1 = new Invoice('Shoaib', 'Work on the Shoaib Website', 250);
 console.log(inv1.format());
+const me = {
+    name: 'Shoaib',
+    age: 30,
+    speak(text) {
+        console.log(text);
+    },
+    spend(amount) {
+        console.log('I spent', amount);
+        return amount;
+    }
+};
