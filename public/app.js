@@ -1,4 +1,4 @@
-"use strict";
+import { Invoice } from './classes/Invoice.js';
 const form = document.querySelector('form');
 const type = document.querySelector('#type');
 const tofrom = document.querySelector('#tofrom');
@@ -9,3 +9,5 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     console.log("Value Log: " + type.value, tofrom.value, details.value, amount.valueAsNumber);
 });
+const inv1 = new Invoice('Shoaib', 'Work on the Shoaib Website', 250);
+console.log(inv1.format());
